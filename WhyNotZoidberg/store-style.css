@@ -1,0 +1,336 @@
+/*This stylesheet is for store
+Color: 
+*/
+
+body {
+	background:url(image/bkgd-zoidberg.jpg) no-repeat fixed top;
+	background-color: transparent;
+	background-size: cover;
+    width: 100%;
+    height: 100%;
+	padding:0px;
+	text-align:center; /*Note to self: this is the key to having the page centered & dont' forget the #wrapper style*/
+	margin-top: 0px;
+	margin-right: 0px;
+	margin-bottom: 0px;
+	margin-left: 0px;
+	font-family: Verdana, Arial, Helvetica, sans-serif;
+	font-size:12px;
+}
+
+a {
+	font-family: Verdana, Arial, Helvetica, sans-serif;
+	font-size: 12px;
+	color: #000000;
+	text-decoration: underline;
+}
+a:active {
+	color: #000000;
+	text-decoration: none;
+}
+a:visited {
+	color: #000000;
+	text-decoration: none;
+}
+a:link {
+	color: #000000;
+	text-decoration: none;
+}
+a:hover{
+	color:#00599C;
+	text-decoration: underline;
+}
+
+img {
+	border-top-style: none;
+	border-right-style: none;
+	border-bottom-style: none;
+	border-left-style: none;
+}
+
+p {
+	font-family: Verdana, Arial, Helvetica, sans-serif;
+	font-size: 12px;
+	color: #000000;
+	text-decoration: none;
+	line-height: 2em;
+	margin:0px;
+	padding-bottom:10px;
+}
+
+h1 {
+    color: #000000;
+    font-family: Verdana, Arial, Helvetica, sans-serif;
+    font-size: 19px;
+    font-weight: 900;
+    line-height: 25px;
+    text-decoration: none;
+}
+h2 {
+	font-family: Verdana, Arial, Helvetica, sans-serif;
+	font-size: 16px;
+	color: #000000;
+	text-decoration: none;
+	font-weight:900;
+}
+h3 {
+	font-family: Verdana, Arial, Helvetica, sans-serif;
+	font-size: 10px;
+	color: #000000;
+	text-decoration: none;
+	font-weight:900;
+}
+h4 {
+	font-family: Verdana, Arial, Helvetica, sans-serif;
+	font-size: 8px;
+	color: #000000;
+	text-decoration: none;
+	font-weight:900;
+}
+
+/*Site Overall Wrapper*/
+/*Note to self: #wrapper is the key to having the page centered & dont' forget the body style*/
+#wrapper {
+	position: relative;
+	width: 990px;
+	margin: 0px auto;
+	padding:0px;
+	text-align: left;
+	background:#FFFFFF;
+	box-shadow: 0px 0px 7px #000000;
+}
+
+/*Header*/
+#header {
+	background: url(image/bkgd-header.jpg) #91c0d0 no-repeat;
+	height: 219px;
+}
+#logo {
+	padding-top:25px;
+	padding-left:60px;
+	width:180px;
+	height:180px;
+}
+
+/*Log Out Button*/
+#log-out {
+	background:url(image/blueRoundedRectangle.png) no-repeat;
+    color: #FFFFFF;
+    float: right;
+    height: 45px;
+    padding-top: 12px;
+    position: absolute;
+    right: 160px;
+    text-align: center;
+    top: 10px;
+    width: 150px;
+	font-size:12px;
+	font-weight:900;
+}
+
+#log-out a:link {
+	color: #FFFFFF;
+	font-size:12px;
+	font-weight:900;
+	text-decoration:none;
+	display: block;
+}
+
+#log-out a:visited{
+	color: #FFFFFF;
+}
+
+#log-out a:hover{
+	color: #FFFFFF;
+	text-decoration: underline;
+	cursor:pointer;
+}
+
+
+/*Account Button*/
+#account {
+	background:url(image/blueRoundedRectangle.png) no-repeat;
+    color: #FFFFFF;
+    float: right;
+    height: 45px;
+    padding-top: 12px;
+    position: absolute;
+    right: 10px;
+    text-align: center;
+    top: 10px;
+    width: 150px;
+	font-size:12px;
+	font-weight:900;
+}
+
+#account a:link {
+	color: #FFFFFF;
+	font-size:12px;
+	font-weight:900;
+	text-decoration:none;
+	display: block;
+}
+
+#account a:visited{
+	color: #FFFFFF;
+}
+
+#account a:hover{
+	color:#ffffff;
+	text-decoration: underline;
+	cursor:pointer;
+}
+
+/*Search Area*/
+#search {
+	/*background:#FF00FF;*/
+    float: right;
+    height: 30px;
+    position: absolute;
+    right: 10px;
+    top: 165px;
+    width: 480px;
+}
+
+/*Content Area*/
+#content {
+    margin: 0 auto;
+	clear:both;
+}
+
+#content-area {
+	width:450px;
+	height:500px;
+}
+
+/*Sidebar-left*/
+#sidebar-left {
+	background:#91c0d0;
+    height: 500px;
+    width: 200px;
+
+}
+
+/*Sidebar-right*/
+#sidebar-right {
+    height: 500px;
+    width: 200px;
+	border-left: solid 1px #000000;
+}
+
+/*Footer*/
+#footer{
+	color: #000000;
+	font-family: Verdana, Arial, Helvetica, sans-serif;
+	font-size: 10px;
+	line-height: 20px;
+	text-align: center; 
+	padding-bottom:20px; 
+	padding-left:0; 
+	padding-right:0; 
+	padding-top:10px;
+	clear:both;
+}
+
+#footer p{
+	padding:0; 
+	margin:0; 
+	text-align:center;
+}
+
+#footer a{
+	font-family: Verdana, Arial, Helvetica, sans-serif;
+	font-size: 10px;
+	color:#000000;
+	text-decoration: none;
+}
+
+#footer a:active{
+	color:#000000;text-decoration: none;
+}
+
+#footer a:visited{
+	color:#000000;text-decoration: underline;
+}
+
+#footer a:link{
+	color:#000000;text-decoration: underline;
+}
+
+#footer a:hover{
+	color:#000000;text-decoration: underline;
+}
+
+/*Search Result Table*/
+#searchResult{
+	color: #000000;
+	font-family: Verdana, Arial, Helvetica, sans-serif;
+	font-size: 15px;
+}
+
+#searchResult a:link{
+	font-size: 15px;
+	text-decoration: underline;
+}
+
+#tableShoppingMiniCart{
+	font-family: Verdana, Arial, Helvetica, sans-serif;
+	font-size: 12px;
+	color:#000000;
+	text-decoration: none;
+}
+
+#btnCart{
+	height: 25px;
+	width: 190px;
+}
+
+#pGenre{
+	font-family: Verdana, Arial, Helvetica, sans-serif;
+	font-size: 12px;
+	font-weight: bold;
+	color:#000000;
+	text-decoration: none;
+	border-bottom-style: solid;
+	border-width: thin;
+	text-align: center;
+}
+
+#tableShoppingCart{
+	background:#91c0d0;
+}
+
+#tableShoppingCart h1{
+	font-size:14px;
+	font-weight:bold;	
+}
+
+#content-area-createAccount{
+	background:#91c0d0;
+	padding-left:325px;
+}
+
+#content-area-loginForm{
+	background:#91c0d0;
+	padding-left:325px;
+}
+
+#content-area-admin{
+	background:#91c0d0;
+	text-align:center;
+}
+
+#editBookPage{
+	width:100%;	
+	height:100%;
+}
+
+#bookForm{
+	float:left;
+	width:50%;
+}
+
+#bookSummary{
+	float:left;
+	width:100%;
+}

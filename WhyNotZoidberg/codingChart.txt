@@ -1,0 +1,27 @@
+UI Page					Responsibility	
+------------------------------------------------------------
+Home Page				Chris
+
+Login					Dave
+
+Create An Account			Dave
+
+Browse					Kevin
+
+Search Results				Kevin
+
+View Account				Zach
+
+Add Funds/Confirm Add Funds		Zach
+
+About Us	      			Zach
+
+Admin Menu				Dave
+
+Add/Edit/Delete an Item			Chris
+
+Shopping Cart				Matt
+	 
+Checkout				Matt
+
+Thank You for your Purchase		Matt
